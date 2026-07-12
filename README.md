@@ -1,33 +1,29 @@
 # Sayako2D
 
-Sayako2D — это 2D игра на C++ с использованием SFML и TinyXML.
+Sayako2D is a 2D game written in C++ using SFML and TinyXML.
 
-## О проекте
+## About the Project
 
-Эту игру я начал создавать в 2020 году, когда хотел заняться геймдевом. Тогда я изучал C++ и пробовал сделать что-то своё. Сейчас проект оформлен как небольшой демонстрационный игровой проект на основе существующей Visual Studio конфигурации.
+I started this game in 2020 when I wanted to get into game development. At that time, I was learning C++ and trying to create something of my own. The current project is presented as a small demo game built with Visual Studio.
 
-## Структура проекта
+## Project Structure
 
-- `Game.sln` — решение Visual Studio.
-- `Game/Game.vcxproj` — основной проект.
-- `Game/Source.cpp` — главный исходный файл.
-- `Game/Animation.h`, `Game/healthBar.h`, `Game/level.h`, `Game/view.h` — заголовочные файлы.
-- `Game/TinyXML/` — библиотека TinyXML для работы с XML.
-- `Game/map.tmx`, `Game/map2.tmx`, `Game/animation.xml` — данные уровней и анимации.
-- `Game/images/` — папка с игровыми изображениями.
+- `Game.sln` — Visual Studio solution.
+- `Game/Game.vcxproj` — main project file.
+- `Game/Source.cpp` — main source file.
+- `Game/Animation.h`, `Game/healthBar.h`, `Game/level.h`, `Game/view.h` — header files.
+- `Game/TinyXML/` — TinyXML library for XML processing.
+- `Game/map.tmx`, `Game/map2.tmx`, `Game/animation.xml` — level and animation data.
+- `Game/images/` — game image assets.
 
-## Как запустить
+## How to Run
 
-1. Откройте `Game.sln` в Visual Studio.
-2. Убедитесь, что выбрана конфигурация `Debug` и платформа `x64`.
-3. Соберите решение.
-4. Запустите проект.
+1. Open `Game.sln` in Visual Studio.
+2. Make sure the configuration is set to `Debug` and the platform is `x64`.
+3. Build the solution.
+4. Run the project.
 
-## Заметки
+## Notes
 
-- В репозитории игнорируются каталоги сборки, временные и бинарные файлы.
-- В проекте используются внешние библиотеки SFML и TinyXML.
-
-## История
-
-Я хотел заняться геймдевом ещё в 2020 году, изучал C++ и пробовал создать свою игру. Этот проект — часть того опыта.
+- Build folders, temporary files, and binary files are excluded from the repository.
+- The project uses external libraries SFML and TinyXML.
