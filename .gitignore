@@ -1,0 +1,38 @@
+# Visual Studio and build artifacts
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.userosscache
+*.sln.docstates
+
+# Build folders
+Debug/
+x64/
+Game/Debug/
+Game/x64/
+
+# Binary files
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.ipdb
+*.log
+*.tlog
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.db
+*.opensdf
+*.sdf
+
+# OS files
+Thumbs.db
+Desktop.ini
