@@ -27,6 +27,7 @@ I started this game in 2020 when I wanted to get into game development. At that 
 
 - Build folders, temporary files, and binary files are excluded from the repository.
 - The project uses external libraries SFML and TinyXML.
+<<<<<<< HEAD
 
 ## Screenshots
 
@@ -35,3 +36,5 @@ I started this game in 2020 when I wanted to get into game development. At that 
 ![Gameplay screenshot 3](screenshots/screen3.png)
 ![Gameplay screenshot 4](screenshots/screen4.png)
 ![Gameplay screenshot 5](screenshots/screen5.png)
+=======
+>>>>>>> 2c81082a1a6af5a234fa7f5b6c17948b66eab65d
